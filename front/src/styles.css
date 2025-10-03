@@ -1,0 +1,100 @@
+/* You can add global styles to this file, and also import other style files */
+  /*body {
+    background-image: url('../src/assets/imgs/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }*/
+  .background-image {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    object-fit: cover;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.208); 
+
+    
+    object-fit: cover;
+  }
+  .design-right {
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    opacity: 0.4;
+  }
+  .design-left {
+    height: 40%;
+    position: absolute;
+    top: 15%;
+    left: -20px;
+    opacity: 0.4;
+  }
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    height: 100%!important;
+    z-index: -1;
+  }
+  .background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .right-section {
+    background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.693) 20%,
+      rgba(0, 0, 0, 0.41) 100%
+    );
+  }
+  .cartLogin {
+    display: flex; 
+    justify-content: flex-end;
+    margin-right: 1em;
+  }
+  @media (min-width: 1092px) {
+    .main {
+      display: flex;
+    }
+    .right-section {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  }
+  @media (max-width: 1091px) {
+    .right-section,
+    .left-section {
+      width: 100%;
+    }
+  }
+  
+  .dropdown-menu-end {
+    background-color: rgba(0, 0, 0, 0.693);
+  }
+  .dropdown-menu-end .dropdown {
+    text-decoration: none;
+  }
+  .dropdown-menu-end .dropdown span {
+    color: #a8a5a5;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .dropdown-menu-end .dropdown span:hover {
+    color: white;
+  }

@@ -1,0 +1,17 @@
+<img
+  *ngIf="url == '/' || url == '/contact'"
+  src="../assets/imgs/background.jpg"
+  class="background-image"
+/>
+<div *ngIf="url == '/login' || url == '/register' || url == '/forgotPassword'">
+  <img src="../assets/imgs/login.png" class="background-image" />
+  <div class="overlay"></div>
+</div>
+<div *ngIf="url == '/menu'">
+  <img src="assets/imgs/nuggets.png" class="design-left" alt="" />
+  <img src="assets/imgs/frites.png" class="design-right" alt="" />
+</div>
+<div *ngIf="spinnerService.isSpinner$ | async">
+  <app-spinner></app-spinner>
+</div>
+<router-outlet></router-outlet>

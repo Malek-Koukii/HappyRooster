@@ -1,0 +1,157 @@
+<div class="main">
+    <div class="col-lg-9 left-section">
+      <app-navbar />
+      <div class="py-5">
+        <div style="position: relative">
+          <div class="container bloc">
+            <div class="d-flex justify-content-center">
+              <div class="contact-form card border-0 rounded-0">
+                <h3 id="contactTab" class="mb-5 mt-3">Contact Us</h3>
+                <form>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control inputName"
+                      placeholder="Name & Surname"
+                      id="name"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control inputEmail"
+                      placeholder="Email"
+                      id="email"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control inputSubject"
+                      placeholder="Subject"
+                      id="subject"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      class="form-control inputMessage"
+                      id="message"
+                      rows="2"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                  <div class="btnSubmit mt-4">
+                    <button id="submit">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 right-section">
+        <div class="d-flex mt-3 cartLogin">
+            <div style="margin-right: 1.3em; color: white;">
+                (1)
+                <i class="bi bi-cart3"></i>
+            </div>
+            <div>
+              <a
+                class="nav-link languages"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="assets/imgs/english.png"
+                  id="englishFlag"
+                  style="width: 1.1em; margin-right: 0.4em"
+                  alt=""
+                />
+                <span style="color: white">{{ englishLabelDropdown }}</span>
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end mx-2"
+                aria-labelledby="languageDropdown"
+              >
+                <li style="display: grid; place-items: center" id="frOption">
+                  <a class="dropdown" (click)="switchLanguage('fr')">
+                    <img
+                      src="assets/imgs/french.png"
+                      style="width: 1.1em; margin-right: 0.4em"
+                      alt=""
+                    />
+                    <span>{{ frenchLabel }}</span>
+                  </a>
+                </li>
+                <li
+                  style="display: grid; place-items: center"
+                  id="enOption"
+                  class="d-none"
+                >
+                  <a class="dropdown" (click)="switchLanguage('en')">
+                    <img
+                      src="assets/imgs/english.png"
+                      style="width: 1.1em; margin-right: 0.4em"
+                      alt=""
+                    />
+                    <span>{{ englishLabel }}</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      <div class="contact-content">
+        <div class="container pb-5">
+          <div class="d-flex mt-4 justifiy-content-center text-center">
+            <div class="card contact-card" style="width: 100%">
+              <div class="addressImg text-center">
+                <i class="material-icons">home</i>
+              </div>
+              <div class="card-body contact-text">
+                <h5 id="addressContact">Address</h5>
+                <div class="card-text" id="addressText1">
+                    45 Sunrise Avenue Coventry
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex mt-4 justifiy-content-center text-center">
+            <div class="card contact-card" style="width: 100%">
+              <div class="contactImg text-center">
+                <i class="material-icons">mail</i>
+              </div>
+              <div class="card-body contact-text">
+                <h5 id="emailContact">Email</h5>
+                <div class="card-text">info@fastfood.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex mt-4 justifiy-content-center text-center">
+            <div class="card contact-card" style="width: 100%">
+              <div class="phoneIcon text-center">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="card-body contact-text">
+                <h5 class="card-title" id="phone">Phone</h5>
+                <p class="card-text">+44 2477989639</p>
+              </div>
+            </div>
+          </div>
+          <div class="socialIcons mt-4">
+            <p id="socialMedia">Follow us on social media</p>
+            <div class="d-flex justify-content-center">
+              <img src="assets/imgs/facebook.png" alt="" />
+              <img
+                style="margin: 0 10px"
+                src="assets/imgs/instagram.png"
+                alt=""
+              />
+              <img src="assets/imgs/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

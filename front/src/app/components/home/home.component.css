@@ -1,0 +1,115 @@
+/* ============== Right Section ============== */
+.styleSlide {
+  color: white!important;
+  background-color: orange!important;
+}
+.styleSlide img {
+  background-color: white!important;
+}
+.boxSlide {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.label {
+  position: absolute;
+  background-color: rgb(98, 98, 98);
+  color: white;
+  font-weight: bold;
+  padding: 0px 8px;
+  font-size: 12px;
+  border-top-right-radius: 5px;
+  right: -0.05em;
+}
+.new-price {
+  font-weight: 500;
+  color: rgb(98, 98, 98);
+}
+.old-price {
+  color: rgb(168, 167, 167);
+  text-decoration: line-through;
+  margin-left: 1em;
+}
+
+/* ============== Left Section ============== */
+.landing {
+  background-color: rgba(0, 0, 0, 0.372);
+  width: 90%;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+@media (min-width: 1092px) {
+  .landing {
+    display: flex;
+  }
+}
+@media (max-width: 1092px) {
+  .boxIcons {
+    justify-content :center;
+  }
+  .landing {
+    text-align: center;
+  }
+  .bannerControls {
+    margin-bottom: 2em;
+  }
+  .landing img {
+    width: 50%!important;
+    height: 50%!important;
+  }
+}
+@media (max-width: 597px) {
+  .landing {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+.boxDescription {
+  color: white;
+}
+.bannerIcon {
+  display: flex;
+  align-items: center;
+}
+.bannerIconBody {
+  margin-left: 10px;
+}
+.boxDescription .title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.boxDescription h4 {
+  font-weight: bold; 
+}
+.boxDescription .description {
+  color: orange;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bannerIcon i {
+  font-size: 35px;
+}
+.bannerIconBody h5 {
+  font-weight: bold;
+}
+.bannerIconBody span {
+  font-weight: 400;
+}
+.bannerControls button {
+  background: rgba(255, 0, 0, 0.825);
+  font-size: 17px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px 40px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  box-shadow: rgba(220, 1, 1, 0.825) 0px 2px 8px 0px;
+}
+.bannerControls button:hover {
+  background: rgba(220, 1, 1, 0.825);
+}

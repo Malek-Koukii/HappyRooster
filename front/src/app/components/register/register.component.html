@@ -1,0 +1,58 @@
+<app-navbar />
+<div class="py-5">
+    <div style="position: relative">
+      <div class="container blocRegister">
+        <div class="row">
+            <div class="col-lg-2 boxLeft">
+                <div style="margin: 6em 0;">
+                  <img class="mb-4" src="../../../assets/imgs/burgerIcon.png" style="width: 10%; color: white;">
+                  <h2 id="welcomeRegister" class="mb-4">Welcome!</h2>
+                  <p id="registerBelow">Creating an account will allow you to place your orders with a few clicks.</p>
+                </div>
+            </div>
+            <div class="col-lg-2 contact-form">
+                <h3 id="register" class="my-3">Sign Up</h3>
+                <form>
+                    <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control inputUsername"
+                          placeholder="Username"
+                          id="username"
+                        />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control inputEmail"
+                        placeholder="Email"
+                        id="emailRegister"
+                      />
+                    </div>
+                    <div class="form-group">
+                        <input
+                          type="password"
+                          class="form-control inputPassword"
+                          placeholder="Password"
+                          id="passwordRegister"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                          type="password"
+                          class="form-control inputConfirmPassword"
+                          placeholder="Confirm Password"
+                          id="confirmPassword"
+                        />
+                    </div>
+                    <div class="btnSubmit mt-4">
+                      <button id="submitRegister">Sign Up</button>
+                    </div>
+                </form>
+                <div id="accountRegister" class="mt-4" style="color: rgb(127, 127, 127); text-align: center;">Already have an account?</div>
+                <div routerLink="/login" id="loginAccount" class="create">Login</div>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>

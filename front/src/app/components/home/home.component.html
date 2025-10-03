@@ -1,0 +1,264 @@
+  <div class="main">
+    <div class="col-lg-9 left-section">
+      <app-navbar />
+      <div class="container">
+        <!--<div id="autoplay" class="carousel slide" data-bs-ride="carousel">-->
+        <div id="autoplay" class="carousel slide" >
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-item1" [ngClass]="{'active': selectedCarousel === 'carousel-item1'}">
+              <div class="landing px-3 py-5 my-5">
+                <div class="boxDescription">
+                  <h1 id="title1" class="title">Quality Chicken Fillet</h1>
+                  <h4 id="subTitle1">Chicken Fillet Burger with Cheese</h4>
+                  <p id="description1" class="description">
+                    Succulent chicken fillet burger cooked to 
+                    perfection with cheddar cheese and fresh salad in a soft bun
+                  </p>
+                  <div class="d-flex boxIcons">
+                    <div class="bannerIcon" style="margin-right: 2em;">
+                      <i class="bi bi-clock-fill"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="bannerBody">Ready in</h5>
+                        <span>5 Minutes</span>
+                      </div>
+                    </div>
+                    <div class="bannerIcon">
+                      <i class="bi bi-truck"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="delivery">Delivery Available</h5>
+                        <span>20+ Minutes</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bannerControls d-flex mt-4 justify-content-center">
+                    <button style="margin-right: 2em;">
+                      <span id="order" style="margin-right: 0.3em;">Order</span>
+                      <i class="bi bi-cart3"></i>
+                    </button>
+                    <h4 class="mt-2">£3.5</h4>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="assets/imgs/home/burger.png" alt="...">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-item2" [ngClass]="{'active': selectedCarousel === 'carousel-item2'}">
+              <div class="landing px-3 py-5 my-5">
+                <div class="boxDescription">
+                  <h1 id="title2" class="title">Taste Real Chicken</h1>
+                  <h4 id="subTitle2">3 Pieces Chicken and Chips</h4>
+                  <p id="description2" class="description">
+                    3 tender pieces of fresh chicken marinated in special breadcrumb 
+                    mix and fried in our high pressure frier to perfection
+                  </p>
+                  <div class="d-flex boxIcons">
+                    <div class="bannerIcon" style="margin-right: 2em;">
+                      <i class="bi bi-clock-fill"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="bannerBody2">Ready in</h5>
+                        <span>7 Minutes</span>
+                      </div>
+                    </div>
+                    <div class="bannerIcon">
+                      <i class="bi bi-truck"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="delivery2">Delivery Available</h5>
+                        <span>20+ Minutes</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bannerControls d-flex mt-4 justify-content-center">
+                    <button style="margin-right: 2em;">
+                      <span id="order2" style="margin-right: 0.3em;">Order</span>
+                      <i class="bi bi-cart3"></i>
+                    </button>
+                    <h4 class="mt-2">£3</h4>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="assets/imgs/home/piecesChicken.png" style="width: 80%;" alt="...">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-item3" [ngClass]="{'active': selectedCarousel === 'carousel-item3'}">
+              <div class="landing px-3 py-5 my-5">
+                <div class="boxDescription">
+                  <h1 id="title3" class="title">Hot Wings</h1>
+                  <h4 id="subTitle3">6 Hot Wings</h4>
+                  <p id="description3" class="description">
+                    Wet your appetite with our special hot wings prepared from large 
+                    wings dipped in our hot mix and fried to tenderness
+                    and fried in our high pressure frier to perfection
+                  </p>
+                  <div class="d-flex boxIcons">
+                    <div class="bannerIcon" style="margin-right: 2em;">
+                      <i class="bi bi-clock-fill"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="bannerBody3">Ready in</h5>
+                        <span>4 Minutes</span>
+                      </div>
+                    </div>
+                    <div class="bannerIcon">
+                      <i class="bi bi-truck"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="delivery3">Delivery Available</h5>
+                        <span>20+ Minutes</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bannerControls d-flex mt-4 justify-content-center">
+                    <button style="margin-right: 2em;">
+                      <span id="order3" style="margin-right: 0.3em;">Order</span>
+                      <i class="bi bi-cart3"></i>
+                    </button>
+                    <h4 class="mt-2">£2</h4>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="assets/imgs/home/hotWings.png" style="width: 80%;" alt="...">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-item3" [ngClass]="{'active': selectedCarousel === 'carousel-item4'}">
+              <div class="landing px-3 py-5 my-5">
+                <div class="boxDescription">
+                  <h1 id="title4" class="title">Chicken Wrap</h1>
+                  <h4 id="subTitle4">Chicken and Salad Wrap</h4>
+                  <p id="description4" class="description">
+                    Tender pieces of deep fried chicken breast together with fresh salad
+                     and mayonaise wrapped in a soft flat bread
+                  </p>
+                  <div class="d-flex boxIcons">
+                    <div class="bannerIcon" style="margin-right: 2em;">
+                      <i class="bi bi-clock-fill"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="bannerBody4">Ready in</h5>
+                        <span>5 Minutes</span>
+                      </div>
+                    </div>
+                    <div class="bannerIcon">
+                      <i class="bi bi-truck"></i>
+                      <div class="bannerIconBody">
+                        <h5 id="delivery4">Delivery Available</h5>
+                        <span>20+ Minutes</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bannerControls d-flex mt-4 justify-content-center">
+                    <button style="margin-right: 2em;">
+                      <span id="order4" style="margin-right: 0.3em;">Order</span>
+                      <i class="bi bi-cart3"></i>
+                    </button>
+                    <h4 class="mt-2">£3.50</h4>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="assets/imgs/home/chickenWrap.png" style="width: 95%;" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 right-section">
+      <div class="d-flex mt-3 cartLogin">
+        <div style="margin-right: 1.3em; color: white;">
+            (1)
+            <i class="bi bi-cart3"></i>
+        </div>
+        <div>
+          <a
+            class="nav-link languages"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/imgs/english.png"
+              id="englishFlag"
+              style="width: 1.1em; margin-right: 0.4em"
+              alt=""
+            />
+            <span style="color: white">{{ englishLabelDropdown }}</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end mx-2"
+            aria-labelledby="languageDropdown"
+          >
+            <li style="display: grid; place-items: center" id="frOption">
+              <a class="dropdown" (click)="switchLanguage('fr')">
+                <img
+                  src="assets/imgs/french.png"
+                  style="width: 1.1em; margin-right: 0.4em"
+                  alt=""
+                />
+                <span>{{ frenchLabel }}</span>
+              </a>
+            </li>
+            <li
+              style="display: grid; place-items: center"
+              id="enOption"
+              class="d-none"
+            >
+              <a class="dropdown" (click)="switchLanguage('en')">
+                <img
+                  src="assets/imgs/english.png"
+                  style="width: 1.1em; margin-right: 0.4em"
+                  alt=""
+                />
+                <span>{{ englishLabel }}</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="slides">
+        <div id="offer" class="label mx-5">Offer</div>
+        <div class="boxSlide mx-5 my-4 p-3" [ngClass]="{ 'styleSlide': selectedCarousel === 'carousel-item1'}" (click)="showCarouselItem('carousel-item1')">
+          <img src="assets/imgs/home/burger.png" style="width: 5em; margin-right: 1em;" alt="...">
+          <div class="boxDescriptionSlide">
+            <div id="slideTitle1" class="fw-bold" style="font-size: 15px;">Chicken Fillet Burger</div>
+            <div class="d-flex">
+              <div class="new-price">£4.5</div>
+              <div class="old-price">£3.5</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxSlide mx-5 my-5 p-3" [ngClass]="{ 'styleSlide': selectedCarousel === 'carousel-item2'}" (click)="showCarouselItem('carousel-item2')">
+          <img src="assets/imgs/home/piecesChicken.png" style="width: 5em; margin-right: 1em;" alt="...">
+          <div class="boxDescriptionSlide">
+            <div id="slideTitle2" class="fw-bold" style="font-size: 15px;">3 Pieces Chicken and Chips</div>
+            <div class="d-flex">
+              <div class="new-price">£3</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxSlide mx-5 my-5 p-3" [ngClass]="{ 'styleSlide': selectedCarousel === 'carousel-item3'}" (click)="showCarouselItem('carousel-item3')">
+          <img src="assets/imgs/home/hotWings.png" style="width: 5em; margin-right: 1em;" alt="...">
+          <div class="boxDescriptionSlide">
+            <div id="slideTitle3" class="fw-bold" style="font-size: 15px;">6 Hot Wings</div>
+            <div class="d-flex">
+              <div class="new-price">£2</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxSlide mx-5 my-5 p-3" [ngClass]="{ 'styleSlide': selectedCarousel === 'carousel-item4'}" (click)="showCarouselItem('carousel-item4')">
+          <img src="assets/imgs/home/chickenWrap.png" style="width: 4em; margin-right: 1em;" alt="...">
+          <div class="boxDescriptionSlide">
+            <div id="slideTitle4" class="fw-bold" style="font-size: 15px;">Chicken Wrap</div>
+            <div class="d-flex">
+              <div class="new-price">£3.50</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

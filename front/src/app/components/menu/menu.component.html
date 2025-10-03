@@ -1,0 +1,943 @@
+<app-navbar />
+<div class="container p-lg-5">
+  <div class="row g-5 justify-content-center align-items-center">
+    <div class="col-lg-4 col-md-12">
+      <div id="appetizers" class="carousel slide">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["appetizers"] }}
+                </h3>
+
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/quesadilla.jpg"
+                class="card-img-top"
+                alt="quesadilla"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Quesadilla</h5>
+                  <div class="price">$14.00 / $20.00</div>
+                </div>
+                <p class="card-text">Choice of chicken or lobster.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["appetizers"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/chicken.jpg"
+                class="card-img-top"
+                alt="chicken"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Chicken Wings</h5>
+                  <div class="price">$14.00</div>
+                </div>
+                <p class="card-text">(6 per order) Buffalo or bourbon BBQ.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["appetizers"] }}
+                </h3>
+
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/calamari.jpg"
+                class="card-img-top"
+                alt="calamari"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Calamari</h5>
+                  <div class="price">$16.00</div>
+                </div>
+                <p class="card-text">
+                  Sliced calamari w/ cherry peppers fried w/ sweet chili sauce.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["appetizers"] }}
+                </h3>
+
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/mussels.jpg"
+                class="card-img-top"
+                alt="mussels"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Mussels</h5>
+                  <div class="price">$18.00</div>
+                </div>
+                <p class="card-text">White wine cream sauce w/shallot.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["appetizers"] }}
+                </h3>
+
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#appetizers"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/grilled.jpg"
+                class="card-img-top"
+                alt="grilled"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Grilled Baby Lamb Chops</h5>
+                  <div class="price">$22.00</div>
+                </div>
+                <p class="card-text">Labneh topped with harissa crisp.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+      <div id="soups" class="carousel slide">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["soups"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#soups"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#soups"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/soups.jpg"
+                class="card-img-top"
+                alt="soups"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Lobster Bisque</h5>
+                  <div class="price">$15.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["soups"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#soups"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#soups"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/soups.jpg"
+                class="card-img-top"
+                alt="soups"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Tomato Soup</h5>
+                  <div class="price">$10.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["soups"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#soups"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#soups"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/soups.jpg"
+                class="card-img-top"
+                alt="soups"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Corn Crab Chowder</h5>
+                  <div class="price">$16.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+      <div id="entrees" class="carousel slide">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["entrees"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#entrees"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#entrees"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/steak.jpg"
+                class="card-img-top"
+                alt="steak"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Steak Frites</h5>
+                  <div class="price">$32.00</div>
+                </div>
+                <p class="card-text">12 oz NY strip and fries.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["entrees"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#entrees"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#entrees"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img src="assets/imgs/fish.jpg" class="card-img-top" alt="fish" />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Fish & Chips</h5>
+                  <div class="price">$21.00</div>
+                </div>
+                <p class="card-text">Fish & Chips</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["entrees"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#entrees"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#entrees"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/crabCakes.jpg"
+                class="card-img-top"
+                alt="crabCakes"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Crab Cakes</h5>
+                  <div class="price">$27.00</div>
+                </div>
+                <p class="card-text">
+                  Served w/arugula salad and remoulade sauce.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+      <div id="salads" class="carousel slide">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["salads"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#salads"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#salads"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/salads.jpg"
+                class="card-img-top"
+                alt="salads"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Cobb Salad</h5>
+                  <div class="price">$18.00</div>
+                </div>
+                <p class="card-text">
+                  Romaine & iceberg lettuce, tomato, bacon, fried chicken,
+                  hard-boiled egg, avocado, blue cheese, Cobb dressing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["salads"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#salads"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#salads"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/salads.jpg"
+                class="card-img-top"
+                alt="salads"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Citrus & Olive Salad</h5>
+                  <div class="price">$18.00</div>
+                </div>
+                <p class="card-text">
+                  Baby gem, orange and grapefruit wedges, red onions, fennel,
+                  feta, pomegranate seeds, pine nuts, kalamata olives, orange
+                  vinaigrette.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["salads"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#salads"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#salads"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/salads.jpg"
+                class="card-img-top"
+                alt="salads"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Nicoise Salad</h5>
+                  <div class="price">$19.00</div>
+                </div>
+                <p class="card-text">
+                  Tuna, red bliss potato, haricots verts, hard boiled eggs,
+                  artichokes, cherry tomatoes, kalamata olives w/dijon lemon
+                  vinaigrette.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["salads"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#salads"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#salads"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/salads.jpg"
+                class="card-img-top"
+                alt="salads"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Poke Bowl</h5>
+                  <div class="price">$21.00</div>
+                </div>
+                <p class="card-text">
+                  Ahi tuna, sushi rice, avocado, cucumbers, edamame, radish,
+                  jalapeño, carrots, pickled ginger.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+      <div id="sandwiches" class="carousel slide">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="carousel-item active">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["sandwiches"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/lobsterRoll.jpg"
+                class="card-img-top"
+                alt="lobsterRoll"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Lobster Roll</h5>
+                  <div class="price">$29.00</div>
+                </div>
+                <p class="card-text">
+                  Fresh Maine lobster, light lemon mayo, served on a buttered
+                  top cut bun.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["sandwiches"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <img
+                src="assets/imgs/chickenCheesesteak.jpg"
+                class="card-img-top"
+                alt="chickenCheesesteak"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Chicken Cheesesteak</h5>
+                  <div class="price">$17.00</div>
+                </div>
+                <p class="card-text">
+                  Caramelized onions, banana peppers, American cheese.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["sandwiches"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/spicyFried.jpg"
+                class="card-img-top"
+                alt="spicyFried"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Spicy Fried Chicken Sandwich</h5>
+                  <div class="price">$17.00</div>
+                </div>
+                <p class="card-text">
+                  Marinated spicy chicken breast, slaw, pickles, sweet hot
+                  sauce, ranch.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["sandwiches"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/lambBurger.jpg"
+                class="card-img-top"
+                alt="lambBurger"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Lamb Burger</h5>
+                  <div class="price">$19.00</div>
+                </div>
+                <p class="card-text">
+                  Grilled lamb patty w/feta spread, mint chimichurri, romaine &
+                  special seasoning.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="carousel-item">
+            <div class="card">
+              <div
+                class="card-header d-flex justify-content-between align-items-center p-3"
+              >
+                <h3 class="m-0 text-center flex-grow-1">
+                  {{ translations[currentLang]["sandwiches"] }}
+                </h3>
+                <!-- Flèches -->
+                <div class="d-flex">
+                  <button
+                    class="btn btn-sm btn-light me-2"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="prev"
+                  >
+                    <i class="bi bi-chevron-left"></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light"
+                    data-bs-target="#sandwiches"
+                    data-bs-slide="next"
+                  >
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="assets/imgs/burger.jpg"
+                class="card-img-top"
+                alt="burger"
+              />
+              <div class="card-body">
+                <div class="bloc-price">
+                  <h5 class="card-title">Chef's Special Smash Burger</h5>
+                  <div class="price">$20.00</div>
+                </div>
+                <p class="card-text">
+                  Two 4 oz smashed special blend beef patties, American cheese,
+                  lettuce, tomato w/bacon jam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12">
+      <div class="carousel slide">
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Card 1 -->
+          <div class="card">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3"
+            >
+              <h3 class="m-0 text-center flex-grow-1">
+                {{ translations[currentLang]["supplement"] }}
+              </h3>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Chicken +$7.00</h5>
+              <h5 class="card-title">Shrimp +$10.00</h5>
+              <h5 class="card-title">Salmon +$11.00</h5>
+              <h5 class="card-title">Flank Steak +$12.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

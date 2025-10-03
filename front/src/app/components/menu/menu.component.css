@@ -1,0 +1,51 @@
+.container {
+  max-width: 80%;
+}
+
+.card {
+  border: none;
+}
+
+.carousel-inner {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.bloc-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.card-text {
+  color: #787878;
+  font-size: 15px;
+}
+
+.price {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #7b0100;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .bloc-price {
+    display: block;
+  }
+}
